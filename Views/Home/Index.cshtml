@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    body{
+    background-color: black;
+    background-image: url("images/cinema-rex.jpg")
+    }
+
+    div.scroll-container {
+        background-color: #333;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+    }
+
+    div.scroll-container img{
+        padding: 10px;
+        border-radius: 8px;
+        width: 1280px;
+        height: 720px;
+    }
+</style>
+
+<div class="text-center">
+    <h1 style="color:white" class="display-4">Welcome to Movie App</h1>
+    <p style="color:white">Discover your favourite movies, TV shows all around the world.</p>
+</div>
+
+<div class="scroll-container">
+    <img src="~/Image/Movies.jpg" alt="Movie1">
+</div>
